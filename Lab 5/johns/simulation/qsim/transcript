@@ -1,0 +1,58 @@
+# do johns.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module john
+# 
+# Top level modules:
+# 	john
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module john_vlg_sample_tst
+# -- Compiling module john_vlg_check_tst
+# ** Warning: johns.vt(223): (vlog-2576) [BSOB] - Bit-select into 'led_expected_prev' is out of bounds.
+# 
+# ** Warning: johns.vt(223): (vlog-2576) [BSOB] - Bit-select into 'led_prev' is out of bounds.
+# 
+# ** Warning: johns.vt(223): (vlog-2576) [BSOB] - Bit-select into 'led_expected_prev' is out of bounds.
+# 
+# ** Warning: johns.vt(224): (vlog-2576) [BSOB] - Bit-select into 'led_expected_prev' is out of bounds.
+# 
+# ** Warning: johns.vt(224): (vlog-2576) [BSOB] - Bit-select into 'last_led_exp' is out of bounds.
+# 
+# ** Warning: johns.vt(233): (vlog-2576) [BSOB] - Bit-select into 'last_led_exp' is out of bounds.
+# 
+# ** Warning: johns.vt(233): (vlog-2576) [BSOB] - Bit-select into 'led_expected_prev' is out of bounds.
+# 
+# ** Warning: johns.vt(314): (vlog-2576) [BSOB] - Bit-select into 'neg_expected_prev' is out of bounds.
+# 
+# ** Warning: johns.vt(314): (vlog-2576) [BSOB] - Bit-select into 'neg_prev' is out of bounds.
+# 
+# ** Warning: johns.vt(314): (vlog-2576) [BSOB] - Bit-select into 'neg_expected_prev' is out of bounds.
+# 
+# ** Warning: johns.vt(315): (vlog-2576) [BSOB] - Bit-select into 'neg_expected_prev' is out of bounds.
+# 
+# ** Warning: johns.vt(315): (vlog-2576) [BSOB] - Bit-select into 'last_neg_exp' is out of bounds.
+# 
+# ** Warning: johns.vt(324): (vlog-2576) [BSOB] - Bit-select into 'last_neg_exp' is out of bounds.
+# 
+# ** Warning: johns.vt(324): (vlog-2576) [BSOB] - Bit-select into 'neg_expected_prev' is out of bounds.
+# 
+# -- Compiling module john_vlg_vec_tst
+# 
+# Top level modules:
+# 	john_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.john_vlg_vec_tst 
+# Loading work.john_vlg_vec_tst
+# Loading work.john
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading work.john_vlg_sample_tst
+# Loading work.john_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Simulation passed !
+# ** Note: $finish    : johns.vt(455)
+#    Time: 480 ns  Iteration: 0  Instance: /john_vlg_vec_tst/tb_out

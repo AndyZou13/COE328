@@ -1,0 +1,90 @@
+$comment
+	File created using the following command:
+		vcd file 7Seg.msim.vcd -direction
+$end
+$date
+	Sat Oct 23 02:28:11 2021
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module seg7_vlg_vec_tst $end
+$var reg 4 ! bcd [3:0] $end
+$var reg 1 " n $end
+$var wire 1 # leds [1] $end
+$var wire 1 $ leds [2] $end
+$var wire 1 % leds [3] $end
+$var wire 1 & leds [4] $end
+$var wire 1 ' leds [5] $end
+$var wire 1 ( leds [6] $end
+$var wire 1 ) leds [7] $end
+$var wire 1 * neg [1] $end
+$var wire 1 + neg [2] $end
+$var wire 1 , neg [3] $end
+$var wire 1 - neg [4] $end
+$var wire 1 . neg [5] $end
+$var wire 1 / neg [6] $end
+$var wire 1 0 neg [7] $end
+$var wire 1 1 sampler $end
+$scope module i1 $end
+$var wire 1 2 gnd $end
+$var wire 1 3 vcc $end
+$var wire 1 4 unknown $end
+$var tri1 1 5 devclrn $end
+$var tri1 1 6 devpor $end
+$var tri1 1 7 devoe $end
+$var wire 1 8 Mux6~0_combout $end
+$var wire 1 9 Mux5~0_combout $end
+$var wire 1 : Mux4~0_combout $end
+$var wire 1 ; Mux3~0_combout $end
+$var wire 1 < Mux2~0_combout $end
+$var wire 1 = Mux1~0_combout $end
+$var wire 1 > Mux0~0_combout $end
+$var wire 1 ? bcd~combout [3] $end
+$var wire 1 @ bcd~combout [2] $end
+$var wire 1 A bcd~combout [1] $end
+$var wire 1 B bcd~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx !
+x"
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+10
+0/
+0.
+0-
+0,
+0+
+0*
+x1
+02
+13
+x4
+15
+16
+17
+x8
+x9
+x:
+x;
+x<
+x=
+x>
+xB
+xA
+x@
+x?
+$end
+#300000

@@ -1,0 +1,24 @@
+|ASU
+Cin => O.IN1
+Cin => O.IN1
+Cin => O.IN1
+Cin => O.IN1
+Cin => neg.IN1
+A[0] => O.IN0
+A[1] => O.IN0
+A[2] => O.IN0
+A[3] => O.IN0
+A[3] => C4.IN0
+B[0] => O.IN1
+B[1] => O.IN1
+B[2] => O.IN1
+B[3] => O.IN1
+B[3] => C4.IN1
+O[0] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= O.DB_MAX_OUTPUT_PORT_TYPE
+neg <= neg.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= C4.DB_MAX_OUTPUT_PORT_TYPE
+
+

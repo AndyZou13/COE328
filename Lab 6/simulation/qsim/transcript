@@ -1,0 +1,131 @@
+# do final.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module gpu
+# 
+# Top level modules:
+# 	gpu
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module gpu_vlg_sample_tst
+# -- Compiling module gpu_vlg_check_tst
+# ** Warning: final.vt(294): (vlog-2576) [BSOB] - Bit-select into 'nr2_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(294): (vlog-2576) [BSOB] - Bit-select into 'nr2_prev' is out of bounds.
+# 
+# ** Warning: final.vt(294): (vlog-2576) [BSOB] - Bit-select into 'nr2_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(295): (vlog-2576) [BSOB] - Bit-select into 'nr2_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(295): (vlog-2576) [BSOB] - Bit-select into 'last_nr2_exp' is out of bounds.
+# 
+# ** Warning: final.vt(304): (vlog-2576) [BSOB] - Bit-select into 'last_nr2_exp' is out of bounds.
+# 
+# ** Warning: final.vt(304): (vlog-2576) [BSOB] - Bit-select into 'nr2_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(385): (vlog-2576) [BSOB] - Bit-select into 'r1_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(385): (vlog-2576) [BSOB] - Bit-select into 'r1_prev' is out of bounds.
+# 
+# ** Warning: final.vt(385): (vlog-2576) [BSOB] - Bit-select into 'r1_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(386): (vlog-2576) [BSOB] - Bit-select into 'r1_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(386): (vlog-2576) [BSOB] - Bit-select into 'last_r1_exp' is out of bounds.
+# 
+# ** Warning: final.vt(395): (vlog-2576) [BSOB] - Bit-select into 'last_r1_exp' is out of bounds.
+# 
+# ** Warning: final.vt(395): (vlog-2576) [BSOB] - Bit-select into 'r1_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(476): (vlog-2576) [BSOB] - Bit-select into 'r2_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(476): (vlog-2576) [BSOB] - Bit-select into 'r2_prev' is out of bounds.
+# 
+# ** Warning: final.vt(476): (vlog-2576) [BSOB] - Bit-select into 'r2_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(477): (vlog-2576) [BSOB] - Bit-select into 'r2_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(477): (vlog-2576) [BSOB] - Bit-select into 'last_r2_exp' is out of bounds.
+# 
+# ** Warning: final.vt(486): (vlog-2576) [BSOB] - Bit-select into 'last_r2_exp' is out of bounds.
+# 
+# ** Warning: final.vt(486): (vlog-2576) [BSOB] - Bit-select into 'r2_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(567): (vlog-2576) [BSOB] - Bit-select into 'studentid_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(567): (vlog-2576) [BSOB] - Bit-select into 'studentid_prev' is out of bounds.
+# 
+# ** Warning: final.vt(567): (vlog-2576) [BSOB] - Bit-select into 'studentid_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(568): (vlog-2576) [BSOB] - Bit-select into 'studentid_expected_prev' is out of bounds.
+# 
+# ** Warning: final.vt(568): (vlog-2576) [BSOB] - Bit-select into 'last_studentid_exp' is out of bounds.
+# 
+# ** Warning: final.vt(577): (vlog-2576) [BSOB] - Bit-select into 'last_studentid_exp' is out of bounds.
+# 
+# ** Warning: final.vt(577): (vlog-2576) [BSOB] - Bit-select into 'studentid_expected_prev' is out of bounds.
+# 
+# -- Compiling module gpu_vlg_vec_tst
+# 
+# Top level modules:
+# 	gpu_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.gpu_vlg_vec_tst 
+# Loading work.gpu_vlg_vec_tst
+# Loading work.gpu
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading work.gpu_vlg_sample_tst
+# Loading work.gpu_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Battl  Hostname: DESKTOP-BNCTVL6  ProcessID: 3884
+# 
+#           Attempting to use alternate WLF file "./wlft0f1c4s".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft0f1c4s
+# 
+# ERROR! Vector Mismatch for output port r2[1] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+# ERROR! Vector Mismatch for output port r2[2] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+# ERROR! Vector Mismatch for output port r2[3] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+# ERROR! Vector Mismatch for output port r2[4] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+# ERROR! Vector Mismatch for output port r2[5] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+# ERROR! Vector Mismatch for output port r2[6] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+# ERROR! Vector Mismatch for output port studentid[1] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1011011
+# ERROR! Vector Mismatch for output port studentid[3] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1011011
+# ERROR! Vector Mismatch for output port studentid[4] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1011011
+# ERROR! Vector Mismatch for output port studentid[6] :: @time = 20000.000 ps
+#      Expected value = 0000000
+#      Real value = 1011011
+# ERROR! Vector Mismatch for output port studentid[2] :: @time = 100000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+# ERROR! Vector Mismatch for output port studentid[5] :: @time = 100000.000 ps
+#      Expected value = 0000000
+#      Real value = 1111110
+#          12 mismatched vectors : Simulation failed !
+# ** Note: $finish    : final.vt(669)
+#    Time: 620 ns  Iteration: 0  Instance: /gpu_vlg_vec_tst/tb_out

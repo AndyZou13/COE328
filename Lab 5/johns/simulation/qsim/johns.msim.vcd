@@ -1,0 +1,198 @@
+$comment
+	File created using the following command:
+		vcd file johns.msim.vcd -direction
+$end
+$date
+	Tue Nov 16 18:55:47 2021
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module john_vlg_vec_tst $end
+$var reg 1 ! Clear $end
+$var reg 1 " Clock $end
+$var reg 1 # E $end
+$var wire 1 $ led [1] $end
+$var wire 1 % led [2] $end
+$var wire 1 & led [3] $end
+$var wire 1 ' led [4] $end
+$var wire 1 ( led [5] $end
+$var wire 1 ) led [6] $end
+$var wire 1 * led [7] $end
+$var wire 1 + neg [1] $end
+$var wire 1 , neg [2] $end
+$var wire 1 - neg [3] $end
+$var wire 1 . neg [4] $end
+$var wire 1 / neg [5] $end
+$var wire 1 0 neg [6] $end
+$var wire 1 1 neg [7] $end
+$var wire 1 2 Q [0] $end
+$var wire 1 3 Q [1] $end
+$var wire 1 4 Q [2] $end
+$var wire 1 5 sampler $end
+$scope module i1 $end
+$var wire 1 6 gnd $end
+$var wire 1 7 vcc $end
+$var wire 1 8 unknown $end
+$var tri1 1 9 devclrn $end
+$var tri1 1 : devpor $end
+$var tri1 1 ; devoe $end
+$var wire 1 < Clock~combout $end
+$var wire 1 = inst|qreg[0]~0_combout $end
+$var wire 1 > Clear~combout $end
+$var wire 1 ? E~combout $end
+$var wire 1 @ inst1|Mux1~0_combout $end
+$var wire 1 A inst1|Mux2~0_combout $end
+$var wire 1 B inst1|Mux3~0_combout $end
+$var wire 1 C inst|Mux2~0_combout $end
+$var wire 1 D inst1|Mux5~0_combout $end
+$var wire 1 E inst1|Mux6~0_combout $end
+$var wire 1 F inst|qreg [0] $end
+$var wire 1 G inst|qreg [1] $end
+$var wire 1 H inst|qreg [2] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+0*
+1)
+1(
+1'
+1&
+1%
+1$
+11
+00
+0/
+0.
+0-
+0,
+0+
+04
+03
+02
+x5
+06
+17
+x8
+19
+1:
+1;
+0<
+1=
+1>
+0?
+1@
+0A
+1B
+0C
+0D
+1E
+0H
+0G
+0F
+$end
+#20000
+0!
+0>
+05
+#40000
+1"
+1#
+1<
+1?
+15
+#60000
+0"
+0#
+0<
+0?
+05
+#80000
+1"
+1<
+15
+#100000
+0"
+0<
+05
+#120000
+1"
+1<
+15
+#140000
+0"
+0<
+05
+#160000
+1"
+1<
+15
+#180000
+0"
+0<
+05
+#200000
+1"
+1<
+15
+#220000
+0"
+0<
+05
+#240000
+1"
+1<
+15
+#260000
+0"
+0<
+05
+#280000
+1"
+1<
+15
+#300000
+0"
+0<
+05
+#320000
+1"
+1<
+15
+#340000
+0"
+0<
+05
+#360000
+1"
+1<
+15
+#380000
+0"
+0<
+05
+#400000
+1"
+1<
+15
+#420000
+0"
+0<
+05
+#440000
+1"
+1<
+15
+#460000
+0"
+0<
+05
+#480000

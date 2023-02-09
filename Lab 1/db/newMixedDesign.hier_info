@@ -1,0 +1,30 @@
+|newMixedDesign
+f <= lab1_vhdl1:inst.o
+w1 => lab1_vhdl2:inst1.w1
+w2 => lab1_vhdl2:inst1.w2
+w3 => lab1_vhdl2:inst1.w3
+w4 => lab1_vhdl2:inst1.w4
+x2 => lab1_vhdl1:inst.x2
+
+
+|newMixedDesign|lab1_vhdl1:inst
+x1 => o.IN0
+x2 => o.IN1
+x2 => o.IN0
+x3 => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|newMixedDesign|lab1_vhdl2:inst1
+w1 => g.IN0
+w1 => h.IN0
+w2 => g.IN1
+w2 => h.IN0
+w3 => g.IN0
+w3 => h.IN1
+w4 => g.IN1
+w4 => h.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+h <= h.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,17 @@
+library ieee;
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity split is
+	port( inp : in std_logic_vector (3 downto 0);
+		onez : out std_logic_vector(1 downto 0);
+		two : out std_logic;
+		three : out std_logic);
+end split;
+
+architecture behavior of split is
+	onez <= inp(1 downto 0);
+	two <= inp(2);
+	three <= inp(3);
+end behavior;
